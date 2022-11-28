@@ -1,0 +1,97 @@
+/* google fonts being imported */
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+/* css of common body */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background: linear-gradient(to top right, #110099, #193bc3, #169cd2, #02b065); */
+  font-family: "Patrick Hand", cursive;
+}
+
+/* css of main container */
+.container {
+  width: 50%;
+  height: 50vh;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 12px 12px 20px #cbcad1, 12px 12px 20px #ffffff;
+  /* background: linear-gradient(to left, #442767, #9d3384, #b23b81); */
+}
+
+.display #screen {
+  width: 97%;
+  height: 70px;
+  font-size: 35px;
+  outline: none;
+  border: none;
+  text-align: right;
+  padding-right: 0.5rem;
+  background: #ecf0f3;
+  border-radius: 6px;
+  box-shadow: inset 8px 8px 8px #cdced1, inset -8px -8px 8px #ffffff;
+}
+
+/* from here we have cc for buttons */
+.btns {
+  width: 100%;
+  margin-top: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btns .row button {
+  width: 80px;
+  height: 26px;
+  font-size: 13px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #ffffff;
+}
+
+.btns .row button:hover {
+  box-shadow: inset 5px 5px 8px rgba(16, 16, 16 0.1), inset -5px -5px 8px #fff;
+  background-color: #fff;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+/* css for =(equals) button */
+
+#eval {
+  background: #33ccff;
+  color: #fff;
+  box-shadow: inset 5px 5px 8px #66d9ff, inset -5px -5px 8px #00ace6;
+}
+
+#eval:hover {
+  box-shadow: inset 5px 5px 8px #00ace6, inset -5px -5px 8px #00ace6;
+}
+
+/* css for all clear button */
+#ac {
+  background: #33cc33;
+  color: #fff;
+}
+
+#ac:hover {
+  box-shadow: inset 5px 5px 8px #2eb82e, inset -5px -5px 8px #33cc33;
+}
+
+/* css for backspace button */
+#ce {
+  background: #ff3399;
+  color: #fff;
+}
+
+#ce:hover {
+  box-shadow: inset 5px 5px 8px #e60073, inset -5px -5px 8px #ff3399;
+}
